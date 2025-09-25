@@ -1,0 +1,53 @@
+name: shopping_list
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.1.0
+  firebase_auth: ^6.0.2
+  cloud_firestore: ^6.0.1
+  firebase_storage: ^13.0.1
+  google_sign_in: ^7.2.0
+
+  # Firebase Web
+  firebase_core_web: ^3.0.0
+  firebase_auth_web: ^6.0.2
+  cloud_firestore_web: ^5.0.1
+  firebase_storage_web: ^3.0.0
+  google_sign_in_web: ^1.1.0
+  flutter_web_plugins:
+    sdk: flutter
+
+  # State management
+  mobx: ^2.5.0
+  flutter_mobx: ^2.3.0
+  provider: ^6.1.5+1
+
+  # Code generation / annotations
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.9.0
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.8.0
+  freezed: ^3.2.3
+  json_serializable: ^6.8.0
+  mobx_codegen: ^2.7.4
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

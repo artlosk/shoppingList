@@ -1,0 +1,1 @@
+enum ShoppingOrder {none, bought, waiting}

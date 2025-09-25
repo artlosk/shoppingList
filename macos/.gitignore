@@ -1,0 +1,55 @@
+# macOS specific files to ignore
+# Firebase configuration with secrets
+GoogleService-Info.plist
+Runner/GoogleService-Info.plist
+
+# Xcode build artifacts
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Flutter generated files
+Flutter/ephemeral/
+Flutter/Generated.xcconfig
+Flutter/flutter_export_environment.sh
+
+# macOS specific
+.DS_Store
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Logs
+*.log
+
+# Archives
+*.ipa
+*.dmg
+*.app
+
+# Provisioning profiles
+*.mobileprovision
+*.provisionprofile
+
+# Keychain
+*.keychain
+
+# App Store Connect
+*.itmsp
+*.itms
+
+# Xcode
+*.xcuserstate
+*.xcscmblueprint
